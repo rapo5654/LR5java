@@ -14,7 +14,7 @@ public class Phone {
     }
 
     public Phone(String number, String model, double weight) {
-        this(number, model); // вызов конструктора с двумя параметрами
+        this(number, model); 
         this.weight = weight;
     }
 
